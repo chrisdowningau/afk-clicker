@@ -9,6 +9,10 @@ If you tested in another game/application please let me know opening an issue or
 
 ## Windows Usage
 
+### Updated with a powershell wrapper to help you find the right window
+Just run either of the shortcuts `AFK Clicker - Right` or `AFK Clicker - Left` from the windows directory
+
+
 Just take the application PID from the task manager and call as `python Main.py -p PID_NUMBER`.  
 Or you can use the application name from task manager and call as `python Main.py -n "APPLICATION NAME"`, remember that applications can have more than one name, take minecraft for example, in task manager you see as `Java(TM) Platform SE binary` but if you place this name it'll get an error while if you expand the task (an arrow beside its name) it'll show `Minecraft 1.13.2` and that'll work.  
 Use the argument option `-m` or `--mouse` to choose the right or left click (1 for left and 2 for right).  
